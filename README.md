@@ -37,16 +37,16 @@ pada latihan 2 saya diberi soal sebagai berikut :
 
 untuk mengerjakan saya memasukkan syntax seperti dibawah :
 
-print("menampilkan bilangan berhenti ketika bilangan 0 dan menampilkan bilangan terbesar")
+    print("menampilkan bilangan berhenti ketika bilangan 0 dan menampilkan bilangan terbesar")
 
-    max=0
-    while True:
-        a=int(input("masukan bilangan : "))
-        if max < a :
-            max = a
-        if a==0:
-            break
-    print("bilangan terbesar adalah = ",max)
+        max=0
+        while True:
+            a=int(input("masukan bilangan : "))
+            if max < a :
+                max = a
+            if a==0:
+                break
+        print("bilangan terbesar adalah = ",max)
 
 dan saya mendapatkan output 
 
